@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ielts Coaching Center</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="CSS.css">
+<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Yeon+Sung&display=swap" rel="stylesheet">
+
+<script>
+$(document).ready(function(){
+    $("#sent").click(function(){
+        $("#sent").replaceWith("<abbr> Sent ! </abbr> ");
+        $("#reset").addClass("btn btn-default disabled");
+        $("abbr").addClass("btn btn-success btn-lg");
+        $("abbr").attr("title","Your Form has submitted");
+    });
+
+});
+
+</script>
+</head>
+<body>
+        <a name="backtotop"><!--Internal Linking--></a>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header"> 
+                
+          <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navCollapse" aria-expanded="false">
+              <span class="sr-only">Toggle Navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <a style="background-color:white;padding:9px;" title="Think and Grow"class="navbar-brand" href="#"><img  src="logo.png" width="100px" height="30px" alt="logo" class="rounded"></a>
+        </div>
+            <div id="navCollapse"class="collapse navbar-collapse ">
+            <ul class="nav navbar-nav ">
+                <li><a class="links" title="current page" href="home(1).html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li><a class="links"href="whychooseus(2).html"><span class="glyphicon glyphicon-hand-right"></span> Why Choose Us?</a></li>
+                <li ><a class="links"href="academicpaper(3).html"><span class="glyphicon glyphicon-paperclip"></span> Academic Paper</a></li>
+                <li><a class="links"href="testformat(4).html"><span class="glyphicon glyphicon-check"></span> Test Format</a></li>
+                <li class="active"><a href="registrationform(5.1).html"> <span class="glyphicon glyphicon-ok"></span> Registration Form</a></li>
+            </ul>    
+            <form action="" class="navbar-form navbar-right">
+                <div class="form-group"><span class="glyphicon glyphicon-search"></span>
+                    <input type="text" class="form-control" placeholder="Search..">
+                </div>
+                <button class="btn btn-default submitbtn"><a href="https://www.google.com">Submit</a></button>
+            </form>
+        </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <h2 class="text-center">Please Enter Your Details<br><small class="text-center">(Fields marked with * are required.)</small></h2><br><br>
+                <form class="form">
+                    <label for="firstname"><span class="glyphicon glyphicon-font"></span> *First Name:-</label><br>
+<input  type="text" name="firstname" id="firstname" placeholder="Enter your first name" /><br><br>
+
+<label for="lastname"> Last Name:-</label><br>
+<input   type="text" name="lastname" id="lastname" placeholder="Enter your last name" /><br><br>
+
+<label for="username"><span class="glyphicon glyphicon-user"></span> *User Name:-</label><br>
+<input  type="text" name="username" id="username" placeholder="Enter your user name" /><br><br>
+
+<label for="pass"><span class="glyphicon glyphicon-lock"></span> *Password:-</label><br>
+<input  type="password" name="pass" id="pass" placeholder="Enter your passcode" /><br><br>
+
+<label for="confirm">Confirm Password:-</label><br>
+<input  type="password" name="pass" id="confirm" placeholder="Confirmation Passcode" /><br><br>
+
+<label for="gender">Gender:-</label><br>
+<input  type="radio" name="gender" id="gender" value="M" /> Male
+<input type="radio" name="gender" id="gender" value="F" /> Female
+<input  type="radio" name="gender" id="gender" value="O" /> Other<br><br><br>
+
+<label for="state">*Choose the state you are from:-</label><br>
+<select id="state" ><br><br>
+	<option>Andhra Pradesh</option>
+	<option>Mumbai</option>
+	<option>Chattisgarh</option>
+	<option>Delhi</option>
+	<option>Haryana</option>
+	<option>Himachal Pradesh</option>
+	<option>China</option>
+	<option>Goa</option>
+	<option>Nepal</option>
+	<option>Kerala</option>
+	<option>Punjab</option>
+	<option>Arunanchal Pradesh</option>
+</select><br><br>
+
+<label for="hobby">Your Hobbies:-</label><br>
+<input  type="checkbox" name="hobby" id="hobby"  /> Reading Books<br>
+<input  type="checkbox" name="hobby" id="hobby"  /> Playing Games<br>
+<input type="checkbox" name="hobby" id="hobby"  /> Watching Movies<br>
+<input  type="checkbox" name="hobby" id="hobby"  /> Travelling<br>
+<input  type="checkbox" name="hobby" id="hobby"  /> Hanging out with friends<br>
+
+<br><br><br>
+<label for="comment">Leave a Message :</label><br><br>
+<textarea id="comment" rows="7" cols="30" placeholder="Why do you want to become a member of this.Let us know :)"></textarea>
+</fieldset><br><br>
+
+<div class="submission">
+    <button class="btn btn-primary active btn-lg "  id="sent" name="submit">Submit  <span style="color:white"id="icon-send" class="glyphicon glyphicon-send"></span></button>&emsp;&emsp;&emsp;
+<button class="btn btn-default btn-lg" type="reset" id="reset"name="reset">Reset <span id="icon-send" class="glyphicon glyphicon-repeat"></span></button>
+
+</div>
+                </form>  
+            </div>
+        </div>
+    </div>
+   
+            <footer>
+                    <div class="container stick-bottom ls">
+                        <div class="row">
+                
+                          <!--1-->  <div class="col-md-3 col-xs-3 social ">
+                              <li class="list-unstyled"> <a title="Mail Mea" href="mailto:kritibali99@gmail.com"><span class="glyphicon glyphicon-tag"></span></a></li>
+                            </div>
+                
+                          <!--2-->    <div class="col-md-3 col-xs-3  social">
+                                <li class="list-unstyled"> <a href="https://youtu.be/2h1siL8CTyM"><span class="glyphicon glyphicon-facetime-video"></span></a></li>
+                            </div>
+                
+                            <!--3-->  <div class="col-md-3 col-xs-3  social">
+                                <li class="list-unstyled"> <a href="https://www.google.com/maps/@30.7407883,76.7467059,13z"><span class="glyphicon glyphicon-map-marker"></a></li>
+                            </div>
+                
+                            <!--4-->  <div class="col-md-3 col-xs-3 social">
+                                <li class="list-unstyled"> <a href="#backtotop"><span title="Back to top" class="glyphicon glyphicon-circle-arrow-up topicon "></span></a></li>
+                            </div>
+                            
+                        </div><!--Row closed-->
+                    </div><!--container closed-->
+                
+                </footer>
+                <div class="color">
+                <div class="container-fluid">
+                        <div class="row">
+                              
+                            <p class="text-capitalize text-center">All rights reserved. No copyright &copy; 2019 <br> Made with  <b>&hearts;</b>
+                            </p>
+                        </div>
+                    </div></div>
+                    
+                
+                </body>
+                </html>

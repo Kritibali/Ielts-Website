@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat|Yeon+Sung&display=swap');
+
+/* color pallettes
+color:#7a9e9f;
+color:#4f6367
+color:#eef5db;
+color:#ef516d;
+
+
+*/
+*{
+margin:0;
+padding:0;
+font-size:19px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bg{
+    margin-top:-20px;
+    background:linear-gradient(to left,rgba(122,158,159,0.9) ,rgba(253, 167, 223,0.1)),url("logo.jpg");
+    background-attachment:fixed;
+    padding:7%;
+    background-repeat: no-repeat;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+    color:white;
+    text-shadow:3px 3px 5px #3c6382;
+}
+h1,h3{
+    font-size:50px;
+    margin-right:20%;
+}
+
+h3,h2,h4{
+    font-family: 'caveat', cursive;
+}
+h4{
+    font-size:45px;
+    text-transform:lowercase
+}
+nav{
+    /*background:linear-gradient(to left,rgba(122,158,159,0.9) ,rgba(253, 167, 223,0.1));
+    */background-color:#2c3e50;
+    font-weight:bolder;
+    padding:5px;
+  
+}
+.navbar{
+    border-bottom:2px solid #3c6382;
+}
+.signup{
+    margin-left:60%;
+    font-weight:bold;
+}
+.signup:hover{
+    background-color: #fff;
+    color:rgba(6, 82, 221,1.0);
+}
+.submitbtn a{
+    text-decoration:none;
+    color:white;
+}
+.submitbtn {
+    background-color: #ef516d;
+    color:white;
+    font-weight:bold;
+}
+.submitbtn a:hover{
+    color: #ef516d;
+}
+.container{
+   margin-top:70px;
+   margin-bottom:50px;
+   text-align:justify;
+}
+.row{
+    margin-top:20px;
+    margin-bottom:30px;
+}
+#keyfact{
+    color:#4f6367;
+    font-weight:bold;
+    font-size:20px;
+}
+.AddClass{
+    text-align:left;
+}
+
+/*  Why choose us  */
+.pageheader h2{
+    font-family: 'caveat', cursive;
+    font-size:50px;
+    margin-top:6%;
+}
+h6{
+    font-size:19px;
+    text-decoration:underline;
+    color:#3c6382;
+}
+.caption:hover{
+    text-decoration: none;
+}
+hr{
+    margin-left:400px;
+}
+.thumbnail{
+    border:2px solid#eef5db;
+    cursor:pointer;
+   
+}
+.thumbnail:hover{
+    border-top:2px solid #ef516d;
+    border-bottom:2px solid #ef516d;
+   
+}
+.thumbnail a{
+    text-decoration:none;
+}
+
+/* academic paper */
+.col-content{
+    text-align:justify;
+}
+a[name="reading"]{
+    color:black;
+}
+a [name="reading"]:hover{
+    text-decoration:none;
+}
+ol li a{
+margin-right:40px;
+}
+
+
+/*Registration FORM (5.1)*/
+input[type="text"],input[type="submit"],input[type="password"],input[type="reset"],select,textarea{
+    width:300px;
+}
+
+.glyphicon-search{
+    color:#df6279;
+    padding:4px;
+}
+.glyphicon-send,.glyphicon-repeat{
+    color:#3c6382;
+    padding-left:6px;
+}
+.sent1{
+    width:300px;
+    background-color:#2ecc71;
+    color:white;
+    padding:3px;
+    text-align:center;
+}
+#navCollapse .links,#navCollapse .active{
+    color:#3c6382;
+}
+#navCollapse .active{
+    border-bottom: 2px solid #ef516d;
+    padding-left:3px;
+    padding-right:1px;
+}
+#navCollapse>ul li a:hover{
+    color:#ef516d;
+    opacity:0.8;
+}
+blockquote:hover{
+    border-left:2px solid #ef516d;
+}
+footer{
+    background-color:#34495e;
+}
+.color{
+    border-top:2px solid #4f6367;
+    background-color:#2c3e50;
+    background-attachment:fixed;
+    color:whitesmoke
+}
+.color p{
+    font-size:15px;
+}
+.abbr{
+    width:700px;
+    background-color:#2ecc71;
+    color:white;
+    padding-left:30px;
+    text-align:center;
+}
+.social a {
+    text-decoration:none;
+  
+}
+.social a span{
+    font-size:35px;
+    color:#df6279;
+}
+.ls{
+    margin-bottom:-10px;
+}
